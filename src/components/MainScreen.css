@@ -1,0 +1,150 @@
+.chat-list {
+    height: 100%;
+		padding:6px 25px;
+		background-color: 	#f2f5f8;
+}
+.chat-header{
+		padding: 10px 40px;
+		border-bottom: 1px solid #ccc;
+		box-shadow:  0 3px 3px 0px #ccc;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: white;
+}
+.chat-main-header{
+	height: 50px;
+	padding: 10px 40px;
+	border-bottom: 1px solid #ccc;
+	box-shadow:  0 3px 3px 0px #ccc;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+}
+.chat-header h2{
+	margin-left: 10px;
+}
+.chat-wrapper {
+	width: 40%;
+	height: 100%;
+	border: 1px solid #ccc;
+}
+
+.chat-item {
+    border: 1px solid #ccc;
+    width: 95%;
+    margin: 1rem 0;
+    border-radius: 8px;
+		background-color: white;
+		padding: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    flex-direction: column;
+}
+
+.single-chat-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    flex-direction: column;
+}
+
+.single-chat-item {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+.single-chat-item-right {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+.sent-chat-list {
+  float: right !important;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	
+}
+
+.user-chat{
+	margin-left: 10px;
+}
+
+.chat-arrow{
+	margin-right: 10px;
+	margin-left: -15px;
+}
+
+.chat-message {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: rgb(244, 240, 250);
+}
+
+.chat-item-name{
+	color: purple;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.chat-item-message{
+	color: purple;
+	font-size: 13px;
+}
+
+.chat-header{
+	height: 50px;
+}
+.user-head{
+	display: flex;
+	align-items: center;
+}
+.chat-message-input{
+	width: 90%;
+	border: none;
+	background-color: rgb(244, 240, 250);
+	margin-left: 5px;
+}
+
+.chat-message{
+	display: flex;
+	align-items: center;
+}
+
+.chat-message-input:focus{
+	outline: none
+}
+
+.edit-icons-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 10px;
+	background-color: white;
+}
+
+.chat-item-time{
+	color: grey;
+	font-size: 12px;
+	margin-left: 5px;
+	padding: 5px;
+}
